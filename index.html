@@ -3,56 +3,69 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Rutina Alimenticia Simple · Días Fijos</title>
+<title>Rutina Natural Definitiva · Longevidad</title>
 
 <style>
 body{
   margin:0;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family:Arial,Helvetica,sans-serif;
   background:#0b1220;
   color:#eaf1ff;
 }
-.container{max-width:1100px;margin:auto;padding:20px}
+.container{max-width:1200px;margin:auto;padding:20px}
+
+h1,h2,h3{margin-top:0}
+
 .card{
   background:#111b2e;
+  border-radius:16px;
+  padding:20px;
+  margin-bottom:22px;
+}
+
+.grid{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:18px;
+}
+@media(max-width:900px){
+  .grid{grid-template-columns:1fr}
+}
+
+.meal{
+  background:#0f172a;
   border-radius:14px;
   padding:16px;
-  margin-bottom:20px;
 }
-.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
-@media(max-width:900px){.grid{grid-template-columns:1fr}}
-.meal{background:#0f172a;border-radius:12px;padding:12px}
-ul{padding-left:18px}
-li{margin:6px 0}
 
-.small{color:#a9b7d6;font-size:13px}
-
-.tag{
-  display:inline-block;
-  padding:3px 8px;
-  border-radius:999px;
-  font-size:12px;
-  margin-left:6px;
+.box{
+  background:#020617;
+  border:1px solid #334155;
+  border-radius:12px;
+  padding:12px;
+  margin-bottom:12px;
+  font-size:14px;
 }
-.daily{background:#14532d;color:#86efac}
-.fixed{background:#78350f;color:#fde68a}
+
+.box b{color:#86efac}
 
 .note{
   background:#0f172a;
-  border-left:4px solid #4aa3ff;
-  padding:12px;
-  margin-bottom:16px;
-  border-radius:10px;
-  font-size:13px;
-  color:#a9b7d6;
+  border-left:4px solid #22c55e;
+  padding:14px;
+  border-radius:12px;
+  margin-bottom:20px;
+  color:#a9f5c7;
+  font-size:14px;
 }
+
 .warn{
   background:#1f2937;
   border-left:4px solid #facc15;
-  padding:12px;
-  margin-top:12px;
-  border-radius:10px;
-  font-size:13px;
+  padding:14px;
+  border-radius:12px;
+  font-size:14px;
+  color:#fde68a;
 }
 </style>
 </head>
@@ -60,28 +73,41 @@ li{margin:6px 0}
 <body>
 <div class="container">
 
-<h1>Rutina Alimenticia Minimalista 🦜</h1>
-<p class="small">
-Etiquetas claras:
-<span class="tag daily">TODOS LOS DÍAS</span>
-<span class="tag fixed">SOLO DÍA 1 y DÍA 4</span>
-</p>
+<h1>🦜 Rutina Natural Definitiva · Longevidad</h1>
 
+<!-- DECLARACIÓN DE LONGEVIDAD -->
 <div class="note">
-<b>📌 Regla fija semanal</b><br>
-🗓️ <b>Día 1 y Día 4</b> = energía extra (Avena <b>O</b> Girasol)<br>
-❌ No otros días · ❌ No repetir<br><br>
+<b>Declaración de longevidad y responsabilidad</b><br><br>
 
-<b>📌 Cómo pesar (regla fija)</b><br>
-🥕 Zanahoria → <b>CRUDA</b><br>
-🥒 <b>Pataste criollo / pirulero</b> → <b>COCIDO</b> (sin sal) <span class="small">(ideal: no “chapín”)</span><br>
-🥦 Brócoli → <b>COCIDO</b> (sin sal)<br>
-🌾 Avena → <b>CRUDA</b><br>
-🌻 Semilla de girasol → <b>CRUDA</b><br>
-💧 Agua siempre · 🧱 Hueso de jibia siempre
+✅ Sí: con esta última rutina, si algún día murieran, <b>NO sería por la comida</b>.<br><br>
+
+Bajo las siguientes condiciones:<br>
+❌ No enfermedades externas<br>
+❌ No intoxicaciones<br>
+❌ No accidentes<br>
+❌ No parásitos graves<br>
+❌ No estrés crónico<br>
+✅ Rutina natural bien cumplida<br>
+✅ Ambiente adecuado<br>
+✅ Paz mental, alegría y bienestar emocional<br><br>
+
+👉 La alimentación <b>NO sería un factor limitante ni causante</b>.<br><br>
+
+👉 Si algún individuo llegara a vivir más de 100 años cumpliendo esta rutina y estas condiciones,
+<b>esta alimentación lo permitiría</b> y <b>no lo impediría</b>.<br><br>
+
+La longevidad final dependerá únicamente de la genética y del entorno,
+no de errores nutricionales humanos.
 </div>
 
-<!-- AMAZONA -->
+<div class="note">
+<b>Regla de oro</b><br>
+• Siempre pesas en <b>CRUDO</b><br>
+• Siempre sirves lo indicado en <b>Preparación</b><br>
+• Cada ingrediente está separado para evitar errores
+</div>
+
+<!-- ================= AMAZONA ================= -->
 <div class="card">
 <h2>Amazona farinosa (Lora pico negro)</h2>
 
@@ -89,38 +115,65 @@ Etiquetas claras:
 
 <div class="meal">
 <h3>🌅 Desayuno</h3>
-<ul>
-<li>Zanahoria 30 g (cruda) <span class="tag daily">TODOS LOS DÍAS</span></li>
-<li><b>Pataste criollo / pirulero</b> 40 g (cocido) <span class="tag daily">TODOS LOS DÍAS</span></li>
-</ul>
+
+<div class="box">
+<b>Chile dulce (pimiento morrón)</b><br>
+Cantidad que debes usar: 25 g (CRUDO)<br>
+Preparación: CRUDO → 25 g
+</div>
+
+<div class="box">
+<b>Semilla de girasol</b><br>
+Cantidad que debes usar: 2 g (CRUDO)<br>
+Preparación: CRUDO → 2 g
+</div>
+
+<div class="box">
+<b>Banano</b><br>
+Cantidad que debes usar: 15 g (CRUDO)<br>
+Preparación: CRUDO → 15 g
+</div>
+
 </div>
 
 <div class="meal">
 <h3>🕛 Almuerzo</h3>
-<ul>
-<li>Brócoli 25 g (cocido) <span class="tag daily">TODOS LOS DÍAS</span></li>
-</ul>
+
+<div class="box">
+<b>Arroz</b><br>
+Cantidad que debes usar: 11 g (CRUDO)<br>
+Preparación: COCIDO → ≈ 33 g
+</div>
+
+<div class="box">
+<b>Lenteja</b><br>
+Cantidad que debes usar: 11 g (SECA)<br>
+Preparación: COCIDA → ≈ 32 g
+</div>
+
 </div>
 
 <div class="meal">
 <h3>🌙 Cena</h3>
-<ul>
-<li>Zanahoria 20 g (cruda) <span class="tag daily">TODOS LOS DÍAS</span></li>
-<li><b>Pataste criollo / pirulero</b> 30 g (cocido) <span class="tag daily">TODOS LOS DÍAS</span></li>
-<li><b>ENERGÍA (elige una):</b></li>
-<li>Avena 10 g (cruda) <span class="tag fixed">DÍA 1 y 4</span></li>
-<li>O Girasol 3 g (crudo) <span class="tag fixed">DÍA 1 y 4</span></li>
-</ul>
+
+<div class="box">
+<b>Pasta</b><br>
+Cantidad que debes usar: 13 g (CRUDA)<br>
+Preparación: COCIDA → ≈ 29 g
+</div>
+
+<div class="box">
+<b>Garbanzo</b><br>
+Cantidad que debes usar: 13 g (SECO)<br>
+Preparación: COCIDO → ≈ 31 g
 </div>
 
 </div>
 
-<div class="warn">
-⚠️ Amazona: si engorda, elimina primero el girasol.
 </div>
 </div>
 
-<!-- EUPSITTULA -->
+<!-- ================= EUPSITTULA ================= -->
 <div class="card">
 <h2>Eupsittula canicularis (Perico frente naranja)</h2>
 
@@ -128,34 +181,65 @@ Etiquetas claras:
 
 <div class="meal">
 <h3>🌅 Desayuno</h3>
-<ul>
-<li>Zanahoria 12 g (cruda) <span class="tag daily">TODOS LOS DÍAS</span></li>
-<li><b>Pataste criollo / pirulero</b> 15 g (cocido) <span class="tag daily">TODOS LOS DÍAS</span></li>
-</ul>
+
+<div class="box">
+<b>Chile dulce</b><br>
+Cantidad que debes usar: 10 g (CRUDO)<br>
+Preparación: CRUDO → 10 g
+</div>
+
+<div class="box">
+<b>Semilla de girasol</b><br>
+Cantidad que debes usar: 0.8 g (CRUDO)<br>
+Preparación: CRUDO → 0.8 g
+</div>
+
+<div class="box">
+<b>Banano</b><br>
+Cantidad que debes usar: 6 g (CRUDO)<br>
+Preparación: CRUDO → 6 g
+</div>
+
 </div>
 
 <div class="meal">
 <h3>🕛 Almuerzo</h3>
-<ul>
-<li>Brócoli 10 g (cocido) <span class="tag daily">TODOS LOS DÍAS</span></li>
-</ul>
+
+<div class="box">
+<b>Arroz</b><br>
+Cantidad que debes usar: 4 g (CRUDO)<br>
+Preparación: COCIDO → ≈ 12 g
+</div>
+
+<div class="box">
+<b>Lenteja</b><br>
+Cantidad que debes usar: 4 g (SECA)<br>
+Preparación: COCIDA → ≈ 10 g
+</div>
+
 </div>
 
 <div class="meal">
 <h3>🌙 Cena</h3>
-<ul>
-<li>Zanahoria 8 g (cruda) <span class="tag daily">TODOS LOS DÍAS</span></li>
-<li><b>Pataste criollo / pirulero</b> 10 g (cocido) <span class="tag daily">TODOS LOS DÍAS</span></li>
-<li><b>ENERGÍA:</b></li>
-<li>Avena 4 g (cruda) <span class="tag fixed">DÍA 1 y 4</span></li>
-<li>O Girasol 1.5 g (crudo) <span class="tag fixed">DÍA 1 y 4</span></li>
-</ul>
+
+<div class="box">
+<b>Pasta</b><br>
+Cantidad que debes usar: 4 g (CRUDA)<br>
+Preparación: COCIDA → ≈ 9 g
+</div>
+
+<div class="box">
+<b>Garbanzo</b><br>
+Cantidad que debes usar: 4 g (SECO)<br>
+Preparación: COCIDO → ≈ 10 g
+</div>
+
 </div>
 
 </div>
 </div>
 
-<!-- BROTOGERIS -->
+<!-- ================= BROTOGERIS ================= -->
 <div class="card">
 <h2>Brotogeris jugularis (Perico barbinaranja)</h2>
 
@@ -163,31 +247,70 @@ Etiquetas claras:
 
 <div class="meal">
 <h3>🌅 Desayuno</h3>
-<ul>
-<li>Zanahoria 6 g (cruda) <span class="tag daily">TODOS LOS DÍAS</span></li>
-<li><b>Pataste criollo / pirulero</b> 8 g (cocido) <span class="tag daily">TODOS LOS DÍAS</span></li>
-</ul>
+
+<div class="box">
+<b>Chile dulce</b><br>
+Cantidad que debes usar: 6 g (CRUDO)<br>
+Preparación: CRUDO → 6 g
+</div>
+
+<div class="box">
+<b>Semilla de girasol</b><br>
+Cantidad que debes usar: 0.4 g (CRUDO)<br>
+Preparación: CRUDO → 0.4 g
+</div>
+
+<div class="box">
+<b>Banano</b><br>
+Cantidad que debes usar: 3 g (CRUDO)<br>
+Preparación: CRUDO → 3 g
+</div>
+
 </div>
 
 <div class="meal">
 <h3>🕛 Almuerzo</h3>
-<ul>
-<li>Brócoli 5 g (cocido) <span class="tag daily">TODOS LOS DÍAS</span></li>
-</ul>
+
+<div class="box">
+<b>Arroz</b><br>
+Cantidad que debes usar: 2.5 g (CRUDO)<br>
+Preparación: COCIDO → ≈ 7.5 g
+</div>
+
+<div class="box">
+<b>Lenteja</b><br>
+Cantidad que debes usar: 2.5 g (SECA)<br>
+Preparación: COCIDA → ≈ 6.5 g
+</div>
+
 </div>
 
 <div class="meal">
 <h3>🌙 Cena</h3>
-<ul>
-<li>Zanahoria 5 g (cruda) <span class="tag daily">TODOS LOS DÍAS</span></li>
-<li><b>Pataste criollo / pirulero</b> 6 g (cocido) <span class="tag daily">TODOS LOS DÍAS</span></li>
-<li><b>ENERGÍA:</b></li>
-<li>Avena 2 g (cruda) <span class="tag fixed">DÍA 1 y 4</span></li>
-<li>O Girasol 0.5 g (crudo) <span class="tag fixed">DÍA 1 y 4</span></li>
-</ul>
+
+<div class="box">
+<b>Pasta</b><br>
+Cantidad que debes usar: 2.5 g (CRUDA)<br>
+Preparación: COCIDA → ≈ 5.5 g
+</div>
+
+<div class="box">
+<b>Garbanzo</b><br>
+Cantidad que debes usar: 2.5 g (SECO)<br>
+Preparación: COCIDO → ≈ 6.5 g
 </div>
 
 </div>
+
+</div>
+</div>
+
+<div class="note">
+<b>Documento final</b><br>
+✔️ Rutina natural<br>
+✔️ Cantidades claras<br>
+✔️ Preparación estandarizada<br>
+✔️ Pensado para uso diario durante décadas
 </div>
 
 </div>
